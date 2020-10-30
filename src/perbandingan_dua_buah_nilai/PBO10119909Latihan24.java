@@ -31,7 +31,7 @@ public class PBO10119909Latihan24 {
             if (nilai1 == nilai2){
                 System.out.printf("Hasil : %1$d Sama Dengan %2$d%n", nilai1, nilai2);
             }
-            System.out.print("Ulangi Aktifitas? Ya/Tidak : ");
+            System.out.print("\nUlangi Aktifitas? Ya/Tidak : ");
             pilihan = scanner.next();
             System.out.println();
         } while (pilihan.equals("ya") || pilihan.equals("Ya"));
